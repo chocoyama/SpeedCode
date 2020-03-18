@@ -14,6 +14,7 @@
 		6B29C7E22421AFB6004F6749 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B29C7E12421AFB6004F6749 /* Preview Assets.xcassets */; };
 		6B29C7E52421AFB6004F6749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B29C7E32421AFB6004F6749 /* LaunchScreen.storyboard */; };
 		6B29C7ED2421AFC6004F6749 /* MinimalShoppingAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29C7EC2421AFC6004F6749 /* MinimalShoppingAppView.swift */; };
+		6B885FE52422EC4A00ADA972 /* AppStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B885FE42422EC4A00ADA972 /* AppStoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6B29C7E42421AFB6004F6749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B29C7E62421AFB6004F6749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B29C7EC2421AFC6004F6749 /* MinimalShoppingAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalShoppingAppView.swift; sourceTree = "<group>"; };
+		6B885FE42422EC4A00ADA972 /* AppStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				6B29C7E62421AFB6004F6749 /* Info.plist */,
 				6B29C7E02421AFB6004F6749 /* Preview Content */,
 				6B29C7EC2421AFC6004F6749 /* MinimalShoppingAppView.swift */,
+				6B885FE42422EC4A00ADA972 /* AppStoreView.swift */,
 			);
 			path = SpeedCode;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B885FE52422EC4A00ADA972 /* AppStoreView.swift in Sources */,
 				6B29C7D92421AFB6004F6749 /* AppDelegate.swift in Sources */,
 				6B29C7DB2421AFB6004F6749 /* SceneDelegate.swift in Sources */,
 				6B29C7DD2421AFB6004F6749 /* ContentView.swift in Sources */,
