@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B18F32F2426417C00D0257C /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B18F32E2426417900D0257C /* movie.mp4 */; };
 		6B29C7D92421AFB6004F6749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29C7D82421AFB6004F6749 /* AppDelegate.swift */; };
 		6B29C7DB2421AFB6004F6749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29C7DA2421AFB6004F6749 /* SceneDelegate.swift */; };
 		6B29C7DD2421AFB6004F6749 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29C7DC2421AFB6004F6749 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B18F32E2426417900D0257C /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
 		6B29C7D52421AFB6004F6749 /* SpeedCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B29C7D82421AFB6004F6749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B29C7DA2421AFB6004F6749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		6B29C7D72421AFB6004F6749 /* SpeedCode */ = {
 			isa = PBXGroup;
 			children = (
+				6B18F32E2426417900D0257C /* movie.mp4 */,
 				6B29C7D82421AFB6004F6749 /* AppDelegate.swift */,
 				6B29C7DA2421AFB6004F6749 /* SceneDelegate.swift */,
 				6B29C7DC2421AFB6004F6749 /* ContentView.swift */,
@@ -142,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B18F32F2426417C00D0257C /* movie.mp4 in Resources */,
 				6B29C7E52421AFB6004F6749 /* LaunchScreen.storyboard in Resources */,
 				6B29C7E22421AFB6004F6749 /* Preview Assets.xcassets in Resources */,
 				6B29C7DF2421AFB6004F6749 /* Assets.xcassets in Resources */,
