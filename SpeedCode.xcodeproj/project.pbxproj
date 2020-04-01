@@ -17,6 +17,10 @@
 		6B29C7ED2421AFC6004F6749 /* MinimalShoppingAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29C7EC2421AFC6004F6749 /* MinimalShoppingAppView.swift */; };
 		6B568CA524259E1900B84619 /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B568CA424259E1900B84619 /* NetflixView.swift */; };
 		6B885FE52422EC4A00ADA972 /* AppStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B885FE42422EC4A00ADA972 /* AppStoreView.swift */; };
+		6BDE2B822434F3430027A69C /* 1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE2B7F2434F3420027A69C /* 1.mov */; };
+		6BDE2B832434F3430027A69C /* 3.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE2B802434F3430027A69C /* 3.mov */; };
+		6BDE2B842434F3430027A69C /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE2B812434F3430027A69C /* 2.mp4 */; };
+		6BDE2B862434F35B0027A69C /* InstagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE2B852434F35B0027A69C /* InstagramView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		6B29C7EC2421AFC6004F6749 /* MinimalShoppingAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalShoppingAppView.swift; sourceTree = "<group>"; };
 		6B568CA424259E1900B84619 /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
 		6B885FE42422EC4A00ADA972 /* AppStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreView.swift; sourceTree = "<group>"; };
+		6BDE2B7F2434F3420027A69C /* 1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1.mov; sourceTree = "<group>"; };
+		6BDE2B802434F3430027A69C /* 3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 3.mov; sourceTree = "<group>"; };
+		6BDE2B812434F3430027A69C /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		6BDE2B852434F35B0027A69C /* InstagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,9 @@
 		6B29C7D72421AFB6004F6749 /* SpeedCode */ = {
 			isa = PBXGroup;
 			children = (
+				6BDE2B7F2434F3420027A69C /* 1.mov */,
+				6BDE2B812434F3430027A69C /* 2.mp4 */,
+				6BDE2B802434F3430027A69C /* 3.mov */,
 				6B18F32E2426417900D0257C /* movie.mp4 */,
 				6B29C7D82421AFB6004F6749 /* AppDelegate.swift */,
 				6B29C7DA2421AFB6004F6749 /* SceneDelegate.swift */,
@@ -75,6 +86,7 @@
 				6B29C7EC2421AFC6004F6749 /* MinimalShoppingAppView.swift */,
 				6B885FE42422EC4A00ADA972 /* AppStoreView.swift */,
 				6B568CA424259E1900B84619 /* NetflixView.swift */,
+				6BDE2B852434F35B0027A69C /* InstagramView.swift */,
 			);
 			path = SpeedCode;
 			sourceTree = "<group>";
@@ -145,10 +157,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDE2B832434F3430027A69C /* 3.mov in Resources */,
 				6B18F32F2426417C00D0257C /* movie.mp4 in Resources */,
 				6B29C7E52421AFB6004F6749 /* LaunchScreen.storyboard in Resources */,
+				6BDE2B842434F3430027A69C /* 2.mp4 in Resources */,
 				6B29C7E22421AFB6004F6749 /* Preview Assets.xcassets in Resources */,
 				6B29C7DF2421AFB6004F6749 /* Assets.xcassets in Resources */,
+				6BDE2B822434F3430027A69C /* 1.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDE2B862434F35B0027A69C /* InstagramView.swift in Sources */,
 				6B885FE52422EC4A00ADA972 /* AppStoreView.swift in Sources */,
 				6B29C7D92421AFB6004F6749 /* AppDelegate.swift in Sources */,
 				6B29C7DB2421AFB6004F6749 /* SceneDelegate.swift in Sources */,

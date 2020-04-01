@@ -286,7 +286,7 @@ struct ObservableScrollView<Content>: View where Content: View {
                     self.content()
                 }.frame(width: parentProxy.size.width)
             }.onPreferenceChange(ScrollOffsetPreferenceKey.self) { (offsets) in
-                self.offset = offsets[0]
+                self.offset = CGPoint(x: offsets[0].x, y: offsets[0].y)
             }
         }
     }
